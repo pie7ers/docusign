@@ -1,0 +1,23 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "make-env": "ts-node utils/makeEnv.ts",
+    "test": "playwright test --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.1",
+    "@types/node": "^22.7.6",
+    "dotenv": "^16.4.7",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "picocolors": "^1.1.1",
+    "uuid": "^11.0.5"
+  }
+}

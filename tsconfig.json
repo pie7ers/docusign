@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    /* Modules */
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
+    //allows to import json to ts
+    "resolveJsonModule": true,
+    "types": ["node"],
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  }
+}
